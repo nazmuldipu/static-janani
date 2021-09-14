@@ -1,7 +1,7 @@
 {
   "ci": {
     "collect": {
-      "staticDistDir": "./build",
+      "staticDistDir": "./docs",
       "maxAutodiscoverUrls": 0
     },
     "upload": {

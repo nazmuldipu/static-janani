@@ -13,12 +13,12 @@ let options = {
 // A script to navigate our app and take snapshots with Percy.
 PercyScript.run(async (page, percySnapshot) => {
   let server = httpServer.createServer({
-    root: './build/'
+    root: './docs/'
   });
   server.listen(PORT);
   // page fetch (.html)
   let pages = []
-  dirTree('./build', {extensions:/\.html$/}, async(item, PATH, stats) =>  {
+  dirTree('./docs', {extensions:/\.html$/}, async(item, PATH, stats) =>  {
     pages.push(item)
   });
   // snapshots

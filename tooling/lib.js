@@ -52,7 +52,7 @@ export const filterForExt = ext => filename => extname(filename) === ext;
 export const globForPrefixExt = prefix => exts => join(prefix, `!(_)**/*@(${exts.join('|')})`);
 
 const pagesURL = new URL('../pages', import.meta.url);
-const buildURL = new URL('../build', import.meta.url);
+const buildURL = new URL('../docs', import.meta.url);
 const rootURL = new URL('..', import.meta.url);
 
 let buildPathName = decodeURI(buildURL.pathname);

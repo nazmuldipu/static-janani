@@ -92,7 +92,7 @@ try {
      * overwrite the downstream build changes...
      */
     bs.init({
-        server: 'build',
+        server: 'docs',
         ui: false,
         port: 8080
     });
