@@ -1241,6 +1241,10 @@ h1 {
     --tw-text-opacity: 1;
     color: rgba(30, 64, 175, var(--tw-text-opacity));
 }
+.hover\:text-gray-200:hover {
+    --tw-text-opacity: 1;
+    color: rgba(229, 231, 235, var(--tw-text-opacity));
+}
 .hover\:text-blue-500:hover {
     --tw-text-opacity: 1;
     color: rgba(59, 130, 246, var(--tw-text-opacity));
