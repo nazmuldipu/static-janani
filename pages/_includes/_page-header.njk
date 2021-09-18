@@ -40,7 +40,7 @@
 {% endmacro %}
 {% macro company_logo() %}
     <a href="/" class="grid grid-flow-col auto-cols-max gap-2 items-center no-underline">
-        <img src = "images/logo_sm.svg" alt="Logo" class="h-10" />
+        <img src = "images/logo_sm.svg" height="40" width="40" alt="Logo" class="h-10" />
         <span class="font-semibold text-gray-800 text-xl font-serif">Janani</span>
     </a>
 {% endmacro %}
@@ -79,7 +79,7 @@
 
         {# Hot number #}
         <div class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
-            <a href="tel:01686763706" class="px-2 py-1 text-base text-white bg-gray-800 hover:text-gray-200 no-underline rounded-full">
+            <a href="tel:01686763706" class="transition duration-500 ease-in-out hover:bg-red-600 px-2 py-1 text-base text-white bg-gray-800 hover:text-gray-200 no-underline rounded-full">
                 01686-763706
             </a>
         </div>
