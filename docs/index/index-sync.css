@@ -631,6 +631,9 @@ h6 {
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
 }
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
 .mt-5 {
     margin-top: 1.25rem;
 }
@@ -666,6 +669,9 @@ h6 {
 }
 .block {
     display: block;
+}
+.inline-block {
+    display: inline-block;
 }
 .flex {
     display: flex;
@@ -864,6 +870,9 @@ h6 {
 .border {
     border-width: 1px;
 }
+.border-b {
+    border-bottom-width: 1px;
+}
 .border-t {
     border-top-width: 1px;
 }
@@ -892,6 +901,10 @@ h6 {
 .bg-gray-800 {
     --tw-bg-opacity: 1;
     background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+}
+.bg-gray-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
 }
 .bg-white {
     --tw-bg-opacity: 1;
@@ -1010,6 +1023,12 @@ h6 {
 .pb-5 {
     padding-bottom: 1.25rem;
 }
+.pl-4 {
+    padding-left: 1rem;
+}
+.pt-8 {
+    padding-top: 2rem;
+}
 .pb-16 {
     padding-bottom: 4rem;
 }
@@ -1027,6 +1046,9 @@ h6 {
 }
 .text-center {
     text-align: center;
+}
+.text-right {
+    text-align: right;
 }
 .font-serif {
     font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
@@ -1101,6 +1123,10 @@ h6 {
     --tw-text-opacity: 1;
     color: rgba(75, 85, 99, var(--tw-text-opacity));
 }
+.text-gray-500 {
+    --tw-text-opacity: 1;
+    color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
 .text-gray-900 {
     --tw-text-opacity: 1;
     color: rgba(17, 24, 39, var(--tw-text-opacity));
@@ -1108,10 +1134,6 @@ h6 {
 .text-blue-600 {
     --tw-text-opacity: 1;
     color: rgba(37, 99, 235, var(--tw-text-opacity));
-}
-.text-gray-500 {
-    --tw-text-opacity: 1;
-    color: rgba(107, 114, 128, var(--tw-text-opacity));
 }
 .text-green-500 {
     --tw-text-opacity: 1;
@@ -1191,11 +1213,17 @@ h6 {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
 }
+.duration-500 {
+    transition-duration: 500ms;
+}
 .duration-200 {
     transition-duration: 200ms;
 }
 .duration-100 {
     transition-duration: 100ms;
+}
+.ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ease-out {
     transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
@@ -1205,17 +1233,21 @@ h6 {
 }
 /****  end imports  ********************************/
 /****  end imports  ********************************/
+.hover\:bg-gray-50:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+}
 .hover\:bg-white:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
+.hover\:bg-red-600:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
+}
 .hover\:bg-blue-700:hover {
     --tw-bg-opacity: 1;
     background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
-}
-.hover\:bg-gray-50:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
 }
 .hover\:bg-gray-100:hover {
     --tw-bg-opacity: 1;

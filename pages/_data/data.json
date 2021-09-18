@@ -41,12 +41,25 @@
         },
         {
           "title": "Hight Speed at low rate",
-          "description": "How many times have you reached out to customer support and spent days waiting for a response? We will response you 24 houra a day 7 day a week.  Our youth and enthusiastic team always ready to serve you."
+          "description": "Video chats, e-commerce, online gaming and stock trading - nobody doubted the benefits of broadband. Now better availability at a low price is turning the virtual dream into a reality."
         },
         {
           "title": "Special Discount on new connection",
-          "description": "How many times have you reached out to customer support and spent days waiting for a response? We will response you 24 houra a day 7 day a week.  Our youth and enthusiastic team always ready to serve you."
+          "description": "Janani-bd is offering a special discount on new connections that will help you enjoy hight speed internet with your family at a super affordable price."
         }
+      ]
+    },
+    "packages":{
+      "name":"Packages",
+      "title":"Chose you package",
+      "description":"",
+      "packages":[
+        {"name":"Basic","price":"600", "features":["Speed up to <b>2mbps</b>","Unlimited traffic", "40mbps YouTube", "40mbps BDIX"]},
+        {"name":"Standard","price":"700", "features":["Speed up to <b>3mbps</b>","Unlimited traffic", "50mbps YouTube", "50mbps BDIX"]},
+        {"name":"Value","price":"800", "features":["Speed up to <b>4mbps</b>","Unlimited traffic", "60mbps YouTube", "60mbps BDIX"]},
+        {"name":"Preminum","price":"850", "features":["Speed up to <b>5mbps</b>","Unlimited traffic", "70mbps YouTube", "70mbps BDIX"]},
+        {"name":"Gamer","price":"900", "features":["Speed up to <b>6mbps</b>","Unlimited traffic", "80mbps YouTube", "80mbps BDIX"]},
+        {"name":"Power","price":"1000", "features":["Speed up to <b>10mbps</b>","Unlimited traffic", "100mbps YouTube", "100mbps BDIX"]}
       ]
     }
   },
